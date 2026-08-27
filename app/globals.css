@@ -13,3 +13,6 @@
 
 @media(max-width:980px){.labs-heading{grid-template-columns:1fr;gap:20px}.labs-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.labs-grid{grid-template-columns:1fr}.lab-card-featured{grid-column:auto}.lab-card{min-height:235px;padding:22px}}
+
+.timeline-body{display:flex;flex-direction:column;justify-content:center;padding-top:28px;padding-bottom:28px}
+.final-cta h2{margin-bottom:24px}.nav-actions .button-small{width:188px}

@@ -10,13 +10,14 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 ## Functional requirements
 
 - Single-page landing at `/`, initially Spanish (`lang="es"`), with a clean ES/EN toggle and no flags.
-- Sticky anchor navigation for About, Services, Experience, Videos and Social links; mobile navigation remains usable.
+- Sticky anchor navigation for About, Services, Experience, Labs, Videos and Social links; mobile navigation remains usable.
 - Every booking CTA opens the canonical [Calendly URL](https://calendly.com/sarreche/sarreche) in a safe new tab.
-- Required sections: hero; credentials; CV-based About; thesis award; services; working method; recent experience; YouTube; social links; final CTA and footer.
+- Required sections: hero; credentials; CV-based About; thesis award; services; working method; recent experience; GitHub Labs; YouTube; social links; final CTA and footer.
 - Credentials: 22+ years, 2011 National Master's Thesis Competition first place and two publications on process improvement.
 - Spanish service order: Desarrollos a medida IA-first; IA y automatización; Liderazgo y ejecución; Arquitectura de software.
 - Working-method title: “De tu desafío a una solución con ingenio.” Spanish; provide an equivalent English title. Use four icon-led steps.
 - Experience includes Santiago Arreche & Asociados, Howdy, Hozho Software and Topaz with period, role and impact statement.
+- Labs loads up to five recently created, owned public repositories from GitHub in descending creation order, excluding forks and archived projects, and keeps a direct profile CTA available if the API cannot be reached.
 - YouTube feature uses `public/images/youtube-channel.png` for “El Rincón de Sarreche”. Social links: LinkedIn, YouTube, Twitch and TikTok.
 
 ## Content and visual rules

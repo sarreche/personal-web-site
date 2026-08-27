@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { ArrowUpRight, Award, BrainCircuit, Check, ChevronRight, Handshake, Linkedin, Menu, MessageCircle, PenTool, Play, Target, Twitch, X, Youtube } from "lucide-react";
 import { useEffect, useState } from "react";
+import { siteConfig } from "../lib/site-config";
 
 type Language = "es" | "en";
 const copy = {
@@ -36,7 +37,7 @@ const copy = {
 
 const socialLinks = { LinkedIn: "https://www.linkedin.com/in/sarreche", YouTube: "https://www.youtube.com/@saarreche", Twitch: "https://www.twitch.tv/sarreche", TikTok: "https://www.tiktok.com/@bysarreche" };
 const socialIcons = { LinkedIn: Linkedin, YouTube: Youtube, Twitch, TikTok: Play };
-const bookingUrl = "https://calendly.com/sarreche/sarreche";
+const bookingUrl = siteConfig.bookingUrl;
 
 export default function Home() {
   const [lang, setLang] = useState<Language>("es");

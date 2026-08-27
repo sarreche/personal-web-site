@@ -1,0 +1,15 @@
+@media (min-width: 981px) {
+  .service-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .service-grid article {
+    padding-inline: 24px;
+  }
+}
+
+.channel-image .cover {
+  object-fit: contain;
+  object-position: center;
+  background: #ffffff;
+}

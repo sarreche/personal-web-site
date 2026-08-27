@@ -11,8 +11,10 @@ import {
   MessageCircle,
   PenTool,
   Play,
+  Rocket,
   Target,
   Twitch,
+  UsersRound,
   X,
   Youtube,
 } from "lucide-react";
@@ -61,7 +63,9 @@ export function ProcessSection({ content }: ContentProps) {
 }
 
 export function ExperienceSection({ content }: ContentProps) {
-  return <section id="experiencia" className="experience section-pad"><div className="section-heading-row"><div><p className="eyebrow">{content.expEyebrow}</p><h2>{content.expTitle}</h2></div><p>{content.expText}</p></div><div className="timeline">{content.jobs.map(([date, company, role, text], index) => <article key={company}><div className="timeline-date">{date}</div><div className="timeline-marker"><span>{index + 1}</span></div><div className="timeline-body"><p>{company}</p><h3>{role}</h3><span>{text}</span></div></article>)}</div></section>;
+  const experienceIcons = [Handshake, BrainCircuit, Rocket, UsersRound] as const;
+
+  return <section id="experiencia" className="experience section-pad"><div className="section-heading-row"><div><p className="eyebrow">{content.expEyebrow}</p><h2>{content.expTitle}</h2></div><p>{content.expText}</p></div><div className="timeline">{content.jobs.map(([date, company, role, text], index) => { const Icon = experienceIcons[index]; return <article key={company}><div className="timeline-date">{date}</div><div className="timeline-marker"><span aria-hidden="true"><Icon size={14} strokeWidth={1.9} /></span></div><div className="timeline-body"><p>{company}</p><h3>{role}</h3><span>{text}</span></div></article>; })}</div></section>;
 }
 
 export function ChannelSection({ content }: ContentProps) {

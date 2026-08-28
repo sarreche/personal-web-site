@@ -14,6 +14,8 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 - Header and contact booking CTAs open the canonical [Calendly URL](https://calendly.com/sarreche/sarreche) in a safe new tab.
 - The hero CTA scrolls to a bilingual contact form with name, email, optional company, service area and message. Successful submissions are delivered through Resend; the form includes accessible status feedback and a honeypot field.
 - Required sections: hero; credentials; CV-based About; thesis award; services; working method; recent experience; GitHub Labs; YouTube; social links; contact form and footer.
+- The home navigation and a latest-articles section expose a bilingual static blog. Spanish uses `/blog` and English uses `/en/blog`.
+- Blog articles are paired Markdown files with the same slug in `content/blog/es` and `content/blog/en`; each article includes localized metadata, reading time, language alternates, a fixed services CTA and recent articles.
 - Credentials: 22+ years, 2011 National Master's Thesis Competition first place and two publications on process improvement.
 - Spanish service order: Desarrollos a medida IA-first; IA y automatización; Liderazgo y ejecución; Arquitectura de software.
 - Working-method title: “De tu desafío a una solución con ingenio.” Spanish; provide an equivalent English title. Use four icon-led steps.
@@ -33,6 +35,7 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 
 - Next.js App Router, TypeScript, React and Tailwind-compatible CSS tooling.
 - Keep the public route statically renderable where possible. Contact delivery uses a minimal server route and Resend; credentials remain server-only environment variables.
+- Blog indexes and articles are statically generated. Publishing requires only paired local Markdown files and a new deployment; no CMS, database, drafts, scheduling, comments, search or categories are in scope.
 - Do not commit generated output, dependencies, secrets or local caches.
 - Merge checks: `npx tsc --noEmit` and `npm run build`.
 

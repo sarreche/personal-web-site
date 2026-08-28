@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Ing. Santiago Arreche",
   url: "https://sarreche.dev",
+  socialImage: "/images/santiago-portrait.jpg",
   bookingUrl: "https://calendly.com/sarreche/sarreche",
   githubUrl: "https://github.com/sarreche",
   socials: {

@@ -17,6 +17,7 @@ Personal/professional website for Ing. Santiago Arreche, software engineer, arch
 - YouTube feature for **El Rincón de Sarreche**
 - LinkedIn, YouTube, Twitch and TikTok links
 - Bilingual contact form with Resend delivery and Calendly fallback
+- Static bilingual Markdown blog with per-article SEO metadata
 - Responsive, semantic layout with keyboard focus states
 
 ## Stack
@@ -41,10 +42,13 @@ Copy `.env.example` to `.env.local` and set `RESEND_API_KEY` to enable contact d
 ```text
 app/                 Route, root layout and page styles
 public/images/       Portrait and YouTube channel assets
+content/blog/         Paired Spanish and English Markdown articles
 docs/                Product spec, architecture review and source material
 ```
 
 The functional source of truth is [docs/SPEC.md](docs/SPEC.md). Architecture recommendations are in [docs/ARCHITECTURE-REVIEW.md](docs/ARCHITECTURE-REVIEW.md). Git conventions are in [AGENTS.md](AGENTS.md).
+
+Blog publishing requires one Markdown file per language and no component changes. See [docs/BLOG.md](docs/BLOG.md) for the exact workflow and template.
 
 ## Links
 

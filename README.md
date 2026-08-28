@@ -16,6 +16,7 @@ Personal/professional website for Ing. Santiago Arreche, software engineer, arch
 - Icon-led working method and recent career timeline
 - YouTube feature for **El Rincón de Sarreche**
 - LinkedIn, YouTube, Twitch and TikTok links
+- Bilingual contact form with Resend delivery and Calendly fallback
 - Responsive, semantic layout with keyboard focus states
 
 ## Stack
@@ -32,6 +33,8 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000). For a production check: `npx tsc --noEmit`, `npm run build`, then `npm run start`.
+
+Copy `.env.example` to `.env.local` and set `RESEND_API_KEY` to enable contact delivery. Messages are addressed to the Gmail account associated with Resend. The testing sender `onboarding@resend.dev` avoids requiring a custom domain; replies use the visitor's email through the `reply_to` header.
 
 ## Project map
 

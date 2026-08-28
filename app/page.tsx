@@ -5,7 +5,6 @@ import {
   AboutSection,
   ChannelSection,
   ExperienceSection,
-  FinalCtaSection,
   HeroSection,
   MetricsSection,
   ProcessSection,
@@ -17,6 +16,7 @@ import {
 import { copy } from "../data/site-content";
 import type { Language } from "../lib/types";
 import { LabsSection } from "../components/labs-section";
+import { ContactForm } from "../components/contact-form";
 
 export default function Home() {
   const [language, setLanguage] = useState<Language>("es");
@@ -39,7 +39,7 @@ export default function Home() {
       <LabsSection content={content} language={language} />
       <ChannelSection content={content} />
       <SocialSection content={content} />
-      <FinalCtaSection content={content} />
+      <ContactForm content={content} />
     </main>
     <SiteFooter content={content} />
   </div>;

@@ -41,7 +41,7 @@ export function SiteHeader({ content, language, menuOpen, setLanguage, setMenuOp
 }
 
 export function HeroSection({ content }: ContentProps) {
-  return <section id="inicio" className="hero section-pad"><div className="hero-copy"><p className="eyebrow">{content.heroKicker}</p><h1>{content.heroTitle}</h1><p className="hero-lead">{content.heroText}</p><div className="hero-actions"><a className="button" href={siteConfig.bookingUrl} target="_blank" rel="noreferrer">{content.cta}<ArrowUpRight size={18} /></a><a className="text-link" href="#experiencia">{content.heroSecondary}<ChevronRight size={17} /></a></div><div className="proof-row">{content.proof.map((item) => <span key={item}><Check size={14} />{item}</span>)}</div></div><div className="hero-visual"><div className="portrait-frame"><Image src="/images/santiago-portrait.jpg" alt="Ing. Santiago Arreche" fill priority sizes="(min-width: 900px) 42vw, 90vw" className="portrait" /></div><div className="portrait-card"><span className="status-dot" /><div><strong>Ing. Santiago Arreche</strong><p>{content.portraitNote}</p></div></div><div className="blue-stroke" aria-hidden="true" /></div></section>;
+  return <section id="inicio" className="hero section-pad"><div className="hero-copy"><p className="eyebrow">{content.heroKicker}</p><h1>{content.heroTitle}</h1><p className="hero-lead">{content.heroText}</p><div className="hero-actions"><a className="button" href="#contacto">{content.heroContact}<ChevronRight size={18} /></a><a className="text-link" href="#experiencia">{content.heroSecondary}<ChevronRight size={17} /></a></div><div className="proof-row">{content.proof.map((item) => <span key={item}><Check size={14} />{item}</span>)}</div></div><div className="hero-visual"><div className="portrait-frame"><Image src="/images/santiago-portrait.jpg" alt="Ing. Santiago Arreche" fill priority sizes="(min-width: 900px) 42vw, 90vw" className="portrait" /></div><div className="portrait-card"><span className="status-dot" /><div><strong>Ing. Santiago Arreche</strong><p>{content.portraitNote}</p></div></div><div className="blue-stroke" aria-hidden="true" /></div></section>;
 }
 
 export function MetricsSection({ content, language }: ContentProps & { language: Language }) {
@@ -77,10 +77,6 @@ const socialLinks = { LinkedIn: siteConfig.socials.linkedin, YouTube: siteConfig
 
 export function SocialSection({ content }: ContentProps) {
   return <section id="redes" className="social section-pad"><div className="section-intro"><p className="eyebrow">{content.socialEyebrow}</p><h2>{content.socialTitle}</h2></div><div className="social-grid">{content.socials.map(([name, text]) => { const socialName = name as keyof typeof socialIcons; const Icon = socialIcons[socialName]; return <a key={name} href={socialLinks[socialName]} target="_blank" rel="noreferrer"><Icon size={23} /><div><strong>{name}</strong><p>{text}</p></div><ArrowUpRight className="social-arrow" size={18} /></a>; })}</div></section>;
-}
-
-export function FinalCtaSection({ content }: ContentProps) {
-  return <section className="final-cta section-pad"><p className="eyebrow">{content.finalEyebrow}</p><h2>{content.finalTitle}</h2><p>{content.finalText}</p><a className="button button-light" href={siteConfig.bookingUrl} target="_blank" rel="noreferrer">{content.cta}<ArrowUpRight size={18} /></a></section>;
 }
 
 export function SiteFooter({ content }: ContentProps) {

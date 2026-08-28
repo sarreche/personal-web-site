@@ -11,8 +11,9 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 
 - Single-page landing at `/`, initially Spanish (`lang="es"`), with a clean ES/EN toggle and no flags.
 - Sticky anchor navigation for About, Services, Experience, Labs, Videos and Social links; mobile navigation remains usable.
-- Every booking CTA opens the canonical [Calendly URL](https://calendly.com/sarreche/sarreche) in a safe new tab.
-- Required sections: hero; credentials; CV-based About; thesis award; services; working method; recent experience; GitHub Labs; YouTube; social links; final CTA and footer.
+- Header and contact booking CTAs open the canonical [Calendly URL](https://calendly.com/sarreche/sarreche) in a safe new tab.
+- The hero CTA scrolls to a bilingual contact form with name, email, optional company, service area and message. Successful submissions are delivered through Resend; the form includes accessible status feedback and a honeypot field.
+- Required sections: hero; credentials; CV-based About; thesis award; services; working method; recent experience; GitHub Labs; YouTube; social links; contact form and footer.
 - Credentials: 22+ years, 2011 National Master's Thesis Competition first place and two publications on process improvement.
 - Spanish service order: Desarrollos a medida IA-first; IA y automatización; Liderazgo y ejecución; Arquitectura de software.
 - Working-method title: “De tu desafío a una solución con ingenio.” Spanish; provide an equivalent English title. Use four icon-led steps.
@@ -31,7 +32,7 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 ## Technical constraints
 
 - Next.js App Router, TypeScript, React and Tailwind-compatible CSS tooling.
-- Keep the public route statically renderable where possible and avoid backend services for this scope.
+- Keep the public route statically renderable where possible. Contact delivery uses a minimal server route and Resend; credentials remain server-only environment variables.
 - Do not commit generated output, dependencies, secrets or local caches.
 - Merge checks: `npx tsc --noEmit` and `npm run build`.
 

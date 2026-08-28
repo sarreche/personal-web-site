@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./services.css";
+import "./blog.css";
 import { siteConfig } from "../lib/site-config";
 
 export const metadata: Metadata = {

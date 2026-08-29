@@ -1,7 +1,7 @@
 ---
 title: "Markov chains, Bayesian networks, and the probabilistic heart of AI"
 description: "States, transitions, conditional independence, and inference: two fundamental structures for understanding how AI represents and reasons under uncertainty."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-27"
 ---
 
 Something still feels strange when we talk about artificial intelligence.

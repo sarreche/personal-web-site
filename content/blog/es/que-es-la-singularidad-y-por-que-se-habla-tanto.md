@@ -1,7 +1,7 @@
 ---
 title: "Qué es la singularidad y por qué se habla tanto de ella hoy"
 description: "Una guía para distinguir singularidad, AGI y superinteligencia, entender el origen de la idea y analizar por qué la IA volvió a ponerla en discusión."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-19"
 ---
 
 Durante décadas, la **singularidad tecnológica** vivió principalmente en libros de ciencia ficción, ensayos futuristas y algunos rincones de la investigación informática.

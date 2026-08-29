@@ -1,7 +1,7 @@
 ---
 title: "Mi experiencia hasta ahora con los agentes de IA"
 description: "Lo que aprendí usando agentes para crear software: modelos, incertidumbre, costos, código, supervisión humana y la importancia de tener un proceso claro."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-21"
 ---
 
 Esta no es una guía definitiva sobre agentes de inteligencia artificial.

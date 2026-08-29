@@ -1,7 +1,7 @@
 ---
 title: "The Company of One: your environment"
 description: "Working independently does not mean growing alone: the right environment can connect you with the people, ideas, and opportunities you need."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-07"
 ---
 
 After doubting it for a long time, I will say it clearly: it does not matter how brilliant you are or how good your products and services may be. If you are building a company of one without surrounding yourself with an aligned environment, moving forward will be much harder.

@@ -1,7 +1,7 @@
 ---
 title: "¿Puedo pasar de cero a un sitio web publicado solo con ChatGPT y Codex?"
 description: "Un experimento real para descubrir cuánto puede construir la IA, dónde falla y cuándo el usuario se convierte en director técnico del producto."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-16"
 ---
 
 Hay una idea que viene creciendo silenciosamente: quizás ya no necesitás saber programar para construir cosas en internet.

@@ -1,7 +1,7 @@
 ---
 title: "Why I don't make AI tutorials on YouTube"
 description: "Interfaces age quickly; judgment, fundamentals, and the ability to direct AI systems remain useful when the tool changes."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-20"
 ---
 
 I talk about artificial intelligence often.

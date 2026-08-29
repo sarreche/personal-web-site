@@ -1,7 +1,7 @@
 ---
 title: "How I use AI to learn faster"
 description: "A practical method for turning AI into a tutor, study guide, and practice partner without outsourcing the learning itself."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-08"
 ---
 
 Artificial intelligence has changed the way I approach a new subject. Not because it can learn for me, but because it helps remove some of the friction that often comes with studying: not knowing where to begin, wasting time looking for the right explanation, or moving forward without a clear structure.

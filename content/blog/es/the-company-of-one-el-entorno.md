@@ -1,7 +1,7 @@
 ---
 title: "The Company of One: el entorno"
 description: "Trabajar por cuenta propia no significa avanzar en soledad: el entorno correcto puede acercarte a las personas, ideas y oportunidades que necesitás."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-07"
 ---
 
 Después de mucho tiempo de dudarlo, te lo digo con claridad: no importa qué tan brillante seas ni qué tan buenos sean tus productos o servicios. Si construís una *company of one* pero no te rodeás de un entorno alineado, avanzar va a ser mucho más difícil.

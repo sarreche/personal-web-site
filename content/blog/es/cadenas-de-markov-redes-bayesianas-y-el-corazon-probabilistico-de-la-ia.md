@@ -1,7 +1,7 @@
 ---
 title: "Cadenas de Markov, redes bayesianas y el corazón probabilístico de la IA"
 description: "Estados, transiciones, independencia condicional e inferencia: dos estructuras fundamentales para entender cómo la IA representa y razona bajo incertidumbre."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-27"
 ---
 
 Hay algo que todavía resulta extraño cuando hablamos de inteligencia artificial.

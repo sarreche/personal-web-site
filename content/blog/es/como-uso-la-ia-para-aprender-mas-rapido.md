@@ -1,7 +1,7 @@
 ---
 title: "Cómo uso la IA para aprender más rápido"
 description: "Un método práctico para convertir la IA en tutor, guía de estudio y compañero de práctica sin delegarle el aprendizaje."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-08"
 ---
 
 La inteligencia artificial cambió mi forma de acercarme a un tema nuevo. No porque pueda aprender por mí, sino porque me ayuda a eliminar parte de la fricción que suele aparecer al estudiar: no saber por dónde empezar, perder tiempo buscando una explicación adecuada o avanzar sin una estructura clara.

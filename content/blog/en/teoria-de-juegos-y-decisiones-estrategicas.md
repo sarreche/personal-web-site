@@ -1,7 +1,7 @@
 ---
 title: "Game theory and strategic decisions"
 description: "Players, strategies, payoffs, the prisoner's dilemma, and Nash equilibrium for understanding decisions whose outcomes also depend on others."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-26"
 ---
 
 There is an enormous difference between making a decision when the result depends only on you and deciding when it also depends on someone else.

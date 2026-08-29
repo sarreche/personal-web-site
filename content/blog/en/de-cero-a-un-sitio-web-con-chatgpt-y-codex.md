@@ -1,7 +1,7 @@
 ---
 title: "Can I go from zero to a published website using only ChatGPT and Codex?"
 description: "A real experiment to discover how much AI can build, where it fails, and when the user becomes the product’s technical director."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-16"
 ---
 
 An idea has been growing quietly: perhaps you no longer need to know how to program to build things on the internet.

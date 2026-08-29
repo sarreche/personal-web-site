@@ -1,7 +1,7 @@
 ---
 title: "Rice’s theorem: why almost nothing interesting is decidable"
 description: "The limit that extends the Halting Problem to every nontrivial semantic property of programs."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-10"
 ---
 
 After learning about the Halting Problem, we might assume that it is an exception. Perhaps we cannot decide whether every program will stop, but we could still build universal analyzers that answer other important questions about program behavior.

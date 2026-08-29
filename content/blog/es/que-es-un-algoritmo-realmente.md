@@ -1,7 +1,7 @@
 ---
 title: "Qué es un algoritmo realmente"
 description: "Más allá de las redes sociales y la inteligencia artificial: qué define a un algoritmo y por qué su lógica también aparece en nuestra vida cotidiana."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-12"
 ---
 
 Cuando escuchamos la palabra *algoritmo*, pensamos en redes sociales. En el algoritmo de Instagram, en las recomendaciones de YouTube o en inteligencia artificial.

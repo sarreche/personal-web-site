@@ -1,7 +1,7 @@
 ---
 title: "What an AI agent looks like inside — explained seriously"
 description: "Model, tools, memory, control, permissions, and validation: the parts that turn a language model into a system capable of taking action."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-17"
 ---
 
 Some people claim that AI agents will transform a large share of programming work and many administrative tasks in a very short time.

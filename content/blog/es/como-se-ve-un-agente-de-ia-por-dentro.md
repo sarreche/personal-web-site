@@ -1,7 +1,7 @@
 ---
 title: "Cómo se ve un agente de IA por dentro — explicado en serio"
 description: "Modelo, herramientas, memoria, control, permisos y validación: las piezas que convierten un modelo de lenguaje en un sistema capaz de actuar."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-17"
 ---
 
 Hay quienes afirman que los agentes de inteligencia artificial van a transformar gran parte del trabajo de programación y muchas tareas administrativas en muy poco tiempo.

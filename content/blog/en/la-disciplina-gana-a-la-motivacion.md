@@ -1,7 +1,7 @@
 ---
 title: "Discipline beats motivation: here’s why"
 description: "Motivation may help you start, but discipline is what keeps you moving when enthusiasm disappears."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-05"
 ---
 
 Some days we wake up full of energy, ready to do everything. On other days, we do not feel like doing anything at all. Those are the moments when many of us wait for motivation to show up.

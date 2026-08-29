@@ -1,7 +1,7 @@
 ---
 title: "Will software engineering be over in six months?"
 description: "AI can generate code, tests, and documentation, but building dependable products still demands decisions, context, and risk management."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-14"
 ---
 
 The question is becoming increasingly urgent: if artificial intelligence starts taking responsibility for writing code, testing it, documenting it, and executing tasks autonomously, what is left for software engineering?

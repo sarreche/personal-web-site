@@ -1,7 +1,7 @@
 ---
 title: "Lenguajes formales y la jerarquía de Chomsky"
 description: "Alfabetos, gramáticas, autómatas y cuatro niveles de poder expresivo para entender qué estructuras puede reconocer cada modelo de computación."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-25"
 ---
 
 Cuando escribís código, parece que estás escribiendo texto.

@@ -1,7 +1,7 @@
 ---
 title: "La paradoja de la productividad: si la IA me ahorra cuatro horas, ¿quién se queda con ellas?"
 description: "Hacer una tarea más rápido no garantiza crear más valor: la verdadera discusión sobre productividad con IA es quién captura el tiempo liberado."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-18"
 ---
 
 Imaginá que una tarea que antes te llevaba cuatro horas ahora, con inteligencia artificial, te lleva una.

@@ -1,7 +1,7 @@
 ---
 title: "¿Se acaba la ingeniería de software en seis meses?"
 description: "La IA puede generar código, pruebas y documentación, pero construir productos confiables sigue exigiendo decisiones, contexto y gestión del riesgo."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-14"
 ---
 
 La pregunta aparece cada vez con más fuerza: si la inteligencia artificial empieza a escribir código, probarlo, documentarlo y ejecutar tareas de forma autónoma, ¿qué lugar le queda a la ingeniería de software?

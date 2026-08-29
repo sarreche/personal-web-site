@@ -1,7 +1,7 @@
 ---
 title: "Tokenmaxxing: la obsesión por medir IA con consumo de tokens"
 description: "Por qué el consumo de tokens puede indicar adopción y costo, pero se vuelve una métrica peligrosa cuando intenta representar productividad o valor."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-13"
 ---
 
 Se llama *tokenmaxxing*.

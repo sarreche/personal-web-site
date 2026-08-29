@@ -1,7 +1,7 @@
 ---
 title: "Cómo fracasar en casi todo y aun así triunfar"
 description: "Diez aprendizajes sobre sistemas, energía, habilidades, fracaso y suerte para seguir avanzando hasta encontrar una oportunidad."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-06"
 ---
 
 Quiero compartir diez ideas que aprendí del libro *Cómo fracasar en casi todo y aun así triunfar*.

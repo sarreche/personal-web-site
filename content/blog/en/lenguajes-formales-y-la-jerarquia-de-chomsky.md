@@ -1,7 +1,7 @@
 ---
 title: "Formal languages and the Chomsky hierarchy"
 description: "Alphabets, grammars, automata, and four levels of expressive power for understanding which structures each model of computation can recognize."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-25"
 ---
 
 When you write code, it looks as though you are writing text.

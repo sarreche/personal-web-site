@@ -1,7 +1,7 @@
 ---
 title: "The productivity paradox: if AI saves me four hours, who gets to keep them?"
 description: "Doing a task faster does not guarantee more value: the real AI productivity debate is about who captures the time it frees."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-18"
 ---
 
 Imagine that a task that used to take four hours now takes one with artificial intelligence.

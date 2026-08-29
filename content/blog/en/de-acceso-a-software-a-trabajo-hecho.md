@@ -1,7 +1,7 @@
 ---
 title: "From software access to work completed"
 description: "AI is not killing SaaS: it is changing what companies sell, how they charge, and what responsibility they assume when software performs work."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-22"
 ---
 
 “SaaS is dead.”

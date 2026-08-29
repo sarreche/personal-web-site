@@ -1,7 +1,7 @@
 ---
 title: "What is the singularity, and why is everyone talking about it today?"
 description: "A guide to distinguishing singularity, AGI, and superintelligence, understanding the idea's origin, and seeing why AI brought it back into the debate."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-19"
 ---
 
 For decades, the **technological singularity** lived mainly in science fiction, futurist essays, and a few corners of computer research.

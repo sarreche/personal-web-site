@@ -1,7 +1,7 @@
 ---
 title: "Teoría de juegos y decisiones estratégicas"
 description: "Jugadores, estrategias, pagos, dilema del prisionero y equilibrio de Nash para entender decisiones cuyo resultado depende también de lo que hacen otros."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-26"
 ---
 
 Hay una diferencia enorme entre decidir algo cuando el resultado depende solamente de vos y decidir cuando también depende de otra persona.

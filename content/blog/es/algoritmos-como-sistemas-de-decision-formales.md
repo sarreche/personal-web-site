@@ -1,7 +1,7 @@
 ---
 title: "Algoritmos como sistemas de decisión formales: árboles, estados y funciones objetivo"
 description: "Una forma estructural de entender los algoritmos mediante estados, transiciones, decisiones, restricciones y objetivos, más allá de una simple lista de pasos."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-24"
 ---
 
 Cuando pensamos en un algoritmo, solemos imaginar una receta.

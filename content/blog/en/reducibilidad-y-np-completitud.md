@@ -1,7 +1,7 @@
 ---
 title: "Reducibility and NP-completeness: how problems are classified"
 description: "How reductions compare difficulty, what NP-hard and NP-complete mean, and why recognizing a problem's structure changes the strategy."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-23"
 ---
 
 When we begin studying theory of computation, the first question often appears binary:

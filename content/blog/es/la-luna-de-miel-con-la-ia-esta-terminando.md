@@ -1,7 +1,7 @@
 ---
 title: "¿La luna de miel con la IA está terminando?"
 description: "La inteligencia artificial parecía casi ilimitada y absurdamente barata. La era de los agentes está revelando el costo real detrás de esa experiencia."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-15"
 ---
 
 Hace unos años, acceder a inteligencia artificial avanzada parecía ciencia ficción.

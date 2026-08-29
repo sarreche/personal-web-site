@@ -1,7 +1,7 @@
 ---
 title: "Reducibilidad y NP-completitud: cómo se clasifican los problemas"
 description: "Cómo las reducciones permiten comparar dificultades, qué significan NP-hard y NP-completo, y por qué reconocer la estructura de un problema cambia la estrategia."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-23"
 ---
 
 Cuando empezamos a estudiar teoría de la computación, la primera pregunta suele ser binaria:

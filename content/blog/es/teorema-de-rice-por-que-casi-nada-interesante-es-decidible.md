@@ -1,7 +1,7 @@
 ---
 title: "Teorema de Rice: por qué casi nada interesante es decidible"
 description: "El límite que extiende el problema de la parada a toda propiedad semántica no trivial de los programas."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-10"
 ---
 
 Después de conocer el problema de la parada, podríamos pensar que se trata de una excepción. Tal vez no podamos decidir si cualquier programa terminará, pero sí podríamos construir analizadores universales para responder otras preguntas importantes sobre su comportamiento.

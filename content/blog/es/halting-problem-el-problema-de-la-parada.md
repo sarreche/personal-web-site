@@ -1,7 +1,7 @@
 ---
 title: "Halting Problem: el problema de la parada"
 description: "Por qué no puede existir un algoritmo capaz de decidir correctamente si cualquier programa terminará o continuará ejecutándose para siempre."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-09"
 ---
 
 Hay algo que me voló la cabeza cuando lo entendí. No es *hype*, marketing ni futurismo. Es una verdad incómoda: hay problemas que ninguna computadora puede resolver de forma general.

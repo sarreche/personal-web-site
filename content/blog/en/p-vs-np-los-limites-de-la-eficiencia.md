@@ -1,7 +1,7 @@
 ---
 title: "P vs NP: the problem that defines the limits of efficiency"
 description: "The open question asking whether finding a solution can be as efficient as verifying that a proposed solution is correct."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-11"
 ---
 
 There is a question in mathematics and computer science that changes the way you think about difficulty once you truly understand it.

@@ -1,7 +1,7 @@
 ---
 title: "The Halting Problem: an absolute limit of computation"
 description: "Why no algorithm can correctly decide whether every possible program will eventually stop or continue running forever."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-09"
 ---
 
 Something blew my mind when I first understood it. This is not hype, marketing, or futurism. It is an uncomfortable truth: some problems cannot be solved by any computer in the general case.

@@ -1,7 +1,7 @@
 ---
 title: "How to fail at almost everything and still win big"
 description: "Ten lessons about systems, energy, skills, failure, and luck that can help you keep moving until opportunity finds you."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-06"
 ---
 
 I want to share ten ideas I took away from the book *How to Fail at Almost Everything and Still Win Big*.

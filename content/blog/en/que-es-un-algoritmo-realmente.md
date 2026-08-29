@@ -1,7 +1,7 @@
 ---
 title: "What an algorithm really is"
 description: "Beyond social media and artificial intelligence: what defines an algorithm and why algorithmic logic also appears in everyday life."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-12"
 ---
 
 When we hear the word *algorithm*, we think about social media. We think about Instagram’s algorithm, YouTube recommendations, or artificial intelligence.

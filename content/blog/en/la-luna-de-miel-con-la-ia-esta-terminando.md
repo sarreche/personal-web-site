@@ -1,7 +1,7 @@
 ---
 title: "Is the honeymoon with AI coming to an end?"
 description: "Artificial intelligence felt nearly unlimited and absurdly cheap. The agent era is revealing the real cost behind that experience."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-15"
 ---
 
 A few years ago, access to advanced artificial intelligence felt like science fiction.

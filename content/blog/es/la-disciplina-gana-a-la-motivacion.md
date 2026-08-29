@@ -1,7 +1,7 @@
 ---
 title: "La disciplina gana a la motivación: aquí la razón"
 description: "La motivación puede ayudarte a empezar, pero es la disciplina la que te permite avanzar cuando el entusiasmo desaparece."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-05"
 ---
 
 Hay días en los que nos despertamos con energía, con ganas de hacerlo todo. Otros, en cambio, no queremos hacer absolutamente nada. Es ahí donde muchos esperamos que aparezca la motivación.

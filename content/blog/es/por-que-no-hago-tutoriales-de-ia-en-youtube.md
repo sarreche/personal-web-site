@@ -1,7 +1,7 @@
 ---
 title: "Por qué no hago tutoriales de IA en YouTube"
 description: "Las interfaces envejecen rápido; el criterio, los fundamentos y la capacidad de dirigir sistemas de IA siguen siendo útiles cuando cambia la herramienta."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-20"
 ---
 
 Hablo bastante de inteligencia artificial.

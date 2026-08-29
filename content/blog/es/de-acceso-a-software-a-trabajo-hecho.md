@@ -1,7 +1,7 @@
 ---
 title: "De acceso a software a trabajo hecho"
 description: "La IA no está matando al SaaS: está cambiando qué venden las empresas, cómo cobran y qué responsabilidad asumen cuando el software ejecuta trabajo."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-22"
 ---
 
 “El SaaS está muerto”.

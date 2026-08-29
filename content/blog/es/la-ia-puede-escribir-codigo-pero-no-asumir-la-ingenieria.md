@@ -1,7 +1,7 @@
 ---
 title: "La IA puede escribir código, pero no asumir la ingeniería"
 description: "Generar software es cada vez más fácil; decidir qué construir, controlar sus riesgos y responder por sus consecuencias sigue siendo ingeniería."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-28"
 ---
 
 Cuando un sistema falla en producción, alguien tiene que responder.

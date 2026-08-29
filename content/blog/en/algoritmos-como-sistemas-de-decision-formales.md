@@ -1,7 +1,7 @@
 ---
 title: "Algorithms as formal decision systems: trees, states, and objective functions"
 description: "A structural view of algorithms through states, transitions, decisions, constraints, and objectives, beyond a simple list of steps."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-24"
 ---
 
 When we think about an algorithm, we often imagine a recipe.

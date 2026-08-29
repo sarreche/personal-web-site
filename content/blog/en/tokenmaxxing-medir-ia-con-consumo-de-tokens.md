@@ -1,7 +1,7 @@
 ---
 title: "Tokenmaxxing: the obsession with measuring AI through token consumption"
 description: "Why token consumption can indicate adoption and cost but becomes dangerous when it is treated as a measure of productivity or value."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-13"
 ---
 
 It is called *tokenmaxxing*.

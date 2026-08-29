@@ -1,7 +1,7 @@
 ---
 title: "My experience with AI agents so far"
 description: "What I learned using agents to build software: models, uncertainty, cost, code, human oversight, and the importance of a clear process."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-21"
 ---
 
 This is not a definitive guide to artificial intelligence agents.

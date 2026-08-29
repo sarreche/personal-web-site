@@ -1,7 +1,7 @@
 ---
 title: "P vs NP: el problema que define los límites de la eficiencia"
 description: "La pregunta abierta que intenta determinar si encontrar una solución puede ser tan eficiente como verificar que una solución es correcta."
-publishedAt: "2026-08-28"
+publishedAt: "2026-08-11"
 ---
 
 Hay una pregunta en matemática y ciencias de la computación que, cuando la entendés de verdad, cambia tu forma de pensar la dificultad.

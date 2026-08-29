@@ -1,7 +1,7 @@
 ---
 title: "AI can write code, but it cannot assume engineering responsibility"
 description: "Generating software is becoming easier; deciding what to build, controlling its risks, and answering for its consequences remain engineering work."
-publishedAt: "2026-08-29"
+publishedAt: "2026-08-28"
 ---
 
 When a system fails in production, somebody has to answer for it.

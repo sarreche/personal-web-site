@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import "./services.css";
 import "./blog.css";
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="es">
       <body>
         {children}
+        <Analytics />
         {process.env.NODE_ENV === "production" ? (
           <Script id="microsoft-clarity" strategy="afterInteractive">
             {`

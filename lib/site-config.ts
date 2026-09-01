@@ -8,6 +8,6 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/sarreche/",
     youtube: "https://www.youtube.com/@sarreche",
     twitch: "https://www.twitch.tv/sarreche",
-    tiktok: "https://www.tiktok.com/@sarreche",
+    x: "https://x.com/sarreche",
   },
 } as const;

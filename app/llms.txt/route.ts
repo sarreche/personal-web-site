@@ -40,6 +40,7 @@ ${englishArticles}
 - [GitHub](${siteConfig.githubUrl}): Public software projects and contributions.
 - [LinkedIn](${siteConfig.socials.linkedin}): Professional profile.
 - [YouTube](${siteConfig.socials.youtube}): El Rincón de Sarreche channel.
+- [X](${siteConfig.socials.x}): Short-form ideas and conversations about technology and AI.
 `;
 
   return new Response(content, {

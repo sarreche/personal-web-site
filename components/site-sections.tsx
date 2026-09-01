@@ -10,7 +10,6 @@ import {
   Menu,
   MessageCircle,
   PenTool,
-  Play,
   Rocket,
   Target,
   Twitch,
@@ -72,8 +71,8 @@ export function ChannelSection({ content }: ContentProps) {
   return <section id="videos" className="channel section-pad"><div className="channel-image"><Image src="/images/youtube-channel.png" alt="Canal de YouTube El Rincón de Sarreche" fill sizes="(min-width: 900px) 52vw, 100vw" className="cover" /></div><div className="channel-copy"><p className="eyebrow">{content.videosEyebrow}</p><h2>{content.videosTitle}</h2><p>{content.videosText}</p><a className="button button-light" href={siteConfig.socials.youtube} target="_blank" rel="noreferrer"><Youtube size={18} />{content.watch}<ArrowUpRight size={17} /></a></div></section>;
 }
 
-const socialIcons = { LinkedIn: Linkedin, YouTube: Youtube, Twitch, TikTok: Play };
-const socialLinks = { LinkedIn: siteConfig.socials.linkedin, YouTube: siteConfig.socials.youtube, Twitch: siteConfig.socials.twitch, TikTok: siteConfig.socials.tiktok };
+const socialIcons = { LinkedIn: Linkedin, YouTube: Youtube, Twitch, X };
+const socialLinks = { LinkedIn: siteConfig.socials.linkedin, YouTube: siteConfig.socials.youtube, Twitch: siteConfig.socials.twitch, X: siteConfig.socials.x };
 
 export function SocialSection({ content }: ContentProps) {
   return <section id="redes" className="social section-pad"><div className="section-intro"><p className="eyebrow">{content.socialEyebrow}</p><h2>{content.socialTitle}</h2></div><div className="social-grid">{content.socials.map(([name, text]) => { const socialName = name as keyof typeof socialIcons; const Icon = socialIcons[socialName]; return <a key={name} href={socialLinks[socialName]} target="_blank" rel="noreferrer"><Icon size={23} /><div><strong>{name}</strong><p>{text}</p></div><ArrowUpRight className="social-arrow" size={18} /></a>; })}</div></section>;

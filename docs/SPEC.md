@@ -21,7 +21,7 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 - Working-method title: “De tu desafío a una solución con ingenio.” Spanish; provide an equivalent English title. Use four icon-led steps.
 - Experience includes Santiago Arreche & Asociados, Howdy, Hozho Software and Topaz with period, role and impact statement.
 - Labs loads up to five recently created, owned public repositories from GitHub in descending creation order, excluding forks and archived projects, and keeps a direct profile CTA available if the API cannot be reached.
-- YouTube feature uses `public/images/youtube-channel.png` for “El Rincón de Sarreche”. Social links: LinkedIn, YouTube, Twitch and TikTok.
+- YouTube feature uses `public/images/youtube-channel.png` for “El Rincón de Sarreche”. Social links: LinkedIn, YouTube, Twitch and X.
 
 ## Content and visual rules
 

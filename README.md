@@ -15,7 +15,7 @@ Personal/professional website for Ing. Santiago Arreche, software engineer, arch
 - Four services led by custom AI-first development
 - Icon-led working method and recent career timeline
 - YouTube feature for **El Rincón de Sarreche**
-- LinkedIn, YouTube, Twitch and TikTok links
+- LinkedIn, YouTube, Twitch and X links
 - Bilingual contact form with Resend delivery and Calendly fallback
 - Static bilingual Markdown blog with per-article SEO metadata
 - Responsive, semantic layout with keyboard focus states

@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, ArrowUpRight, BrainCircuit, CalendarDays, Clock } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUpRight, BrainCircuit, CalendarDays, Clock, Coffee } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
@@ -8,7 +8,7 @@ import type { Language } from "../lib/types";
 
 const labels = {
   es: {
-    home: "Inicio", blog: "Blog", booking: "Agendar una llamada", back: "Volver al blog",
+    home: "Inicio", blog: "Blog", support: "Apoyar el blog", booking: "Agendar una llamada", back: "Volver al blog",
     reading: "min de lectura", empty: "Los primeros artículos están en preparación.",
     emptyText: "Volvé pronto para encontrar ideas sobre arquitectura, IA, software y liderazgo técnico.",
     eyebrow: "Ideas para construir con criterio", title: "Notas sobre software, IA y decisiones técnicas.",
@@ -18,7 +18,7 @@ const labels = {
     recent: "Seguí leyendo", latest: "Últimos artículos", all: "Ver todos los artículos",
   },
   en: {
-    home: "Home", blog: "Blog", booking: "Book a call", back: "Back to the blog",
+    home: "Home", blog: "Blog", support: "Support the blog", booking: "Book a call", back: "Back to the blog",
     reading: "min read", empty: "The first articles are in progress.",
     emptyText: "Come back soon for ideas on architecture, AI, software, and technical leadership.",
     eyebrow: "Ideas for building with judgment", title: "Notes on software, AI, and technical decisions.",
@@ -47,8 +47,8 @@ export function BlogHeader({ language, postSlug }: { language: Language; postSlu
 
   return <header className="nav-wrap"><nav className="nav blog-nav" aria-label={language === "es" ? "Navegación principal" : "Main navigation"}>
     <Link href="/" className="wordmark" aria-label={`Ing. Santiago Arreche, ${t.home.toLowerCase()}`}><span className="brand-mark" aria-hidden="true"><BrainCircuit size={19} /></span><strong>Ing. Santiago Arreche</strong></Link>
-    <div className="blog-nav-links"><Link href="/">{t.home}</Link><Link href={blogBase(language)} aria-current="page">{t.blog}</Link></div>
-    <div className="nav-actions"><div className="language-switch" aria-label={language === "es" ? "Seleccionar idioma" : "Select language"}>
+    <div className="blog-nav-links"><Link href="/">{t.home}</Link><Link href={blogBase(language)} aria-current="page">{t.blog}</Link><a className="blog-support-link" href={siteConfig.supportUrl} target="_blank" rel="noreferrer"><Coffee size={14} aria-hidden="true" />{t.support}<ArrowUpRight size={13} aria-hidden="true" /></a></div>
+    <div className="nav-actions"><a className="blog-support-link blog-support-mobile" href={siteConfig.supportUrl} target="_blank" rel="noreferrer" aria-label={t.support}><Coffee size={15} aria-hidden="true" /><span>{t.support}</span><ArrowUpRight size={13} aria-hidden="true" /></a><div className="language-switch" aria-label={language === "es" ? "Seleccionar idioma" : "Select language"}>
       <Link href={language === "es" ? blogBase(language) + (postSlug ? `/${postSlug}` : "") : translationUrl} className={language === "es" ? "active" : ""} aria-current={language === "es" ? "page" : undefined}>ES</Link>
       <Link href={language === "en" ? blogBase(language) + (postSlug ? `/${postSlug}` : "") : translationUrl} className={language === "en" ? "active" : ""} aria-current={language === "en" ? "page" : undefined}>EN</Link>
       </div><a className="button button-small" href={siteConfig.bookingUrl} target="_blank" rel="noreferrer">{t.booking}<ArrowUpRight size={16} /></a></div>

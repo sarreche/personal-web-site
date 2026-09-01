@@ -3,6 +3,7 @@ export const siteConfig = {
   url: "https://sarreche.dev",
   socialImage: "/images/santiago-portrait.jpg",
   bookingUrl: "https://calendly.com/sarreche/sarreche",
+  supportUrl: "https://buymeacoffee.com/sarreche",
   githubUrl: "https://github.com/sarreche",
   socials: {
     linkedin: "https://www.linkedin.com/in/sarreche/",

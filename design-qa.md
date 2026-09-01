@@ -28,7 +28,7 @@ The hero and channel sections were inspected at readable scale because they carr
 
 - ES/EN selector updates all visible content and the document language.
 - Mobile menu opens and exposes translated navigation.
-- Primary CTA, in-page navigation, YouTube, LinkedIn, Twitch, and TikTok are rendered as real links.
+- Primary CTA, in-page navigation, YouTube, LinkedIn, Twitch, and X are rendered as real links.
 - Keyboard focus styles and reduced-motion behavior are present.
 - Browser console checked after a clean production rebuild; no application errors or warnings remain, and the route returns HTTP 200.
 

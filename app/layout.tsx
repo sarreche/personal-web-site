@@ -13,8 +13,27 @@ export const metadata: Metadata = {
   title: "Ing. Santiago Arreche | Software Architecture, AI & Technical Leadership",
   description: "Software architect and technology consultant helping teams design scalable systems, adopt AI thoughtfully, and turn complexity into clear decisions.",
   alternates: { canonical: "/" },
-  openGraph: { title: "Ing. Santiago Arreche | Software Architecture, AI & Technical Leadership", description: "Architecture, AI, and technical leadership with judgment.", type: "website", url: "/" },
-  twitter: { card: "summary_large_image", title: "Ing. Santiago Arreche | Software Architecture, AI & Technical Leadership", description: "Architecture, AI, and technical leadership with judgment." },
+  openGraph: {
+    title: "Ing. Santiago Arreche | Software Architecture, AI & Technical Leadership",
+    description: "Architecture, AI, and technical leadership with judgment.",
+    type: "website",
+    url: "/",
+    images: [{
+      url: "/images/blog-social-card.png",
+      width: 1200,
+      height: 630,
+      alt: "Desafíos complejos, soluciones claras — Ing. Santiago Arreche",
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ing. Santiago Arreche | Software Architecture, AI & Technical Leadership",
+    description: "Architecture, AI, and technical leadership with judgment.",
+    images: [{
+      url: "/images/blog-social-card.png",
+      alt: "Desafíos complejos, soluciones claras — Ing. Santiago Arreche",
+    }],
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

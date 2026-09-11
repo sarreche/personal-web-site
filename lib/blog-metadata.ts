@@ -7,7 +7,7 @@ export function postMetadata(post: BlogPost, language: Language): Metadata {
   const base = language === "es" ? "/blog" : "/en/blog";
   const otherBase = language === "es" ? "/en/blog" : "/blog";
   const url = `${base}/${post.slug}`;
-  const image = "/opengraph-image";
+  const image = "/images/blog-social-card.png";
   const imageAlt = language === "es"
     ? "Blog de Santiago Arreche sobre software, inteligencia artificial y decisiones técnicas"
     : "Santiago Arreche's blog about software, artificial intelligence, and technical decisions";

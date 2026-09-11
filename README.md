@@ -18,7 +18,7 @@ Personal/professional website for Ing. Santiago Arreche, software engineer, arch
 - LinkedIn, YouTube, Twitch and X links
 - Bilingual contact form with Resend delivery and Calendly fallback
 - Static bilingual Markdown blog with per-article SEO metadata
-- Generated 1200×630 social cards for bilingual blog articles
+- One shared 1200×630 social card for all bilingual blog articles
 - Discreet bilingual blog support link to Buy Me a Coffee
 - Responsive, semantic layout with keyboard focus states
 

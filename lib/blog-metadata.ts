@@ -7,7 +7,10 @@ export function postMetadata(post: BlogPost, language: Language): Metadata {
   const base = language === "es" ? "/blog" : "/en/blog";
   const otherBase = language === "es" ? "/en/blog" : "/blog";
   const url = `${base}/${post.slug}`;
-  const image = post.coverImage ?? siteConfig.socialImage;
+  const image = "/opengraph-image";
+  const imageAlt = language === "es"
+    ? "Blog de Santiago Arreche sobre software, inteligencia artificial y decisiones técnicas"
+    : "Santiago Arreche's blog about software, artificial intelligence, and technical decisions";
 
   return {
     title: `${post.title} | Ing. Santiago Arreche`,
@@ -25,8 +28,15 @@ export function postMetadata(post: BlogPost, language: Language): Metadata {
       description: post.description,
       url,
       publishedTime: post.publishedAt,
-      images: [{ url: image, alt: post.coverAlt ?? "Ing. Santiago Arreche" }],
+      images: [{ url: image, width: 1200, height: 630, alt: imageAlt }],
     },
-    twitter: { card: "summary_large_image", title: post.title, description: post.description, images: [image] },
+    twitter: {
+      card: "summary_large_image",
+      site: "@sarreche",
+      creator: "@sarreche",
+      title: post.title,
+      description: post.description,
+      images: [{ url: image, alt: imageAlt }],
+    },
   };
 }

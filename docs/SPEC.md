@@ -23,7 +23,7 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 - Labs loads up to five recently created, owned public repositories from GitHub in descending creation order, excluding forks and archived projects, and keeps a direct profile CTA available if the API cannot be reached.
 - YouTube feature uses `public/images/youtube-channel.png` for “El Rincón de Sarreche”. Social links: LinkedIn, YouTube, Twitch and X.
 - Blog navigation includes a secondary bilingual support link to Buy Me a Coffee without competing with the primary booking CTA.
-- Every blog article uses the same shared 1200×630 Open Graph and X image while preserving its localized title and description metadata.
+- Every blog article uses `public/images/blog-social-card.png` as the shared 1200×630 Open Graph and X image while preserving its localized title and description metadata.
 
 ## Content and visual rules
 

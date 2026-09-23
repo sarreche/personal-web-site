@@ -56,4 +56,4 @@ Blog publishing requires one Markdown file per language and no component changes
 
 - [Calendly](https://calendly.com/sarreche/sarreche)
 - [GitHub repository](https://github.com/sarreche/personal-web-site)
-- [YouTube — El Rincón de Sarreche](https://www.youtube.com/@sarreche)
+- [YouTube — El Rincón de Sarreche](https://www.youtube.com/@saarreche)

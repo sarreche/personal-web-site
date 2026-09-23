@@ -7,7 +7,7 @@ export const siteConfig = {
   githubUrl: "https://github.com/sarreche",
   socials: {
     linkedin: "https://www.linkedin.com/in/sarreche/",
-    youtube: "https://www.youtube.com/@sarreche",
+    youtube: "https://www.youtube.com/@saarreche",
     twitch: "https://www.twitch.tv/sarreche",
     x: "https://x.com/sarreche",
   },

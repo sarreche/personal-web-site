@@ -162,5 +162,5 @@ Por eso yo no dejaría de aprender IA. La aprendería con una pregunta más exig
 
 Dentro de poco muchas personas podrán generar un informe, una imagen, un análisis o un bloque de código. La diferencia estará en quién pueda convertir ese material en algo verdadero, útil y confiable para otra persona.
 
-Si querés seguir pensando conmigo sobre inteligencia artificial, software y trabajo, comparto nuevos experimentos y reflexiones en [mi canal de YouTube](https://www.youtube.com/@sarreche).
+Si querés seguir pensando conmigo sobre inteligencia artificial, software y trabajo, comparto nuevos experimentos y reflexiones en [mi canal de YouTube](https://www.youtube.com/@saarreche).
 

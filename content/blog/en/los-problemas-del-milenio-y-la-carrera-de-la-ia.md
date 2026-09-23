@@ -114,4 +114,4 @@ Perhaps we will eventually discover that one of these proposals contained a gap.
 
 That seems like the most interesting position to me. Not announcing that AI has solved mathematics, but looking closely at what happens when a tool capable of exploring at unprecedented scale meets questions that have resisted generations.
 
-If you would like to continue this conversation about artificial intelligence, science, and software, I share new experiments and reflections on [my YouTube channel](https://www.youtube.com/@sarreche).
+If you would like to continue this conversation about artificial intelligence, science, and software, I share new experiments and reflections on [my YouTube channel](https://www.youtube.com/@saarreche).

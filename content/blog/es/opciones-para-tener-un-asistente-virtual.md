@@ -125,4 +125,4 @@ Hoy hay propuestas que resuelven gran parte de la infraestructura y otras que pe
 
 Lo que me entusiasma es que la pregunta ya se puede bajar a tierra: qué quiero delegar, dónde están mis cosas, cuánto control necesito y cuánto estoy dispuesto a gastar. Con eso sobre la mesa, la conversación empieza a ser mucho más útil.
 
-Si te interesa seguir explorando estas herramientas conmigo, comparto experiencias y reflexiones sobre IA, software y trabajo en [mi canal de YouTube](https://www.youtube.com/@sarreche).
+Si te interesa seguir explorando estas herramientas conmigo, comparto experiencias y reflexiones sobre IA, software y trabajo en [mi canal de YouTube](https://www.youtube.com/@saarreche).

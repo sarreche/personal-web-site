@@ -114,4 +114,4 @@ Quizá dentro de un tiempo descubramos que alguna de estas propuestas tenía un 
 
 Esa me parece la posición más interesante. No anunciar que la IA resolvió la matemática, sino mirar de cerca qué ocurre cuando una herramienta capaz de explorar a una escala inédita se encuentra con preguntas que llevan generaciones resistiéndose.
 
-Si te interesa seguir esta conversación sobre inteligencia artificial, ciencia y software, comparto nuevos experimentos y reflexiones en [mi canal de YouTube](https://www.youtube.com/@sarreche).
+Si te interesa seguir esta conversación sobre inteligencia artificial, ciencia y software, comparto nuevos experimentos y reflexiones en [mi canal de YouTube](https://www.youtube.com/@saarreche).

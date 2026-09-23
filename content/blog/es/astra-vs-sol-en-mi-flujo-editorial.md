@@ -118,4 +118,4 @@ Entonces, ¿Astra va a mejorar radicalmente mi día a día? Creo que puede cambi
 
 Para el resto, Sol no quedó viejo de un día para el otro. Sigue siendo el taller donde gran parte del trabajo se convierte en algo concreto.
 
-Si querés acompañarme mientras pruebo estas herramientas en proyectos, investigaciones y nuevos formatos, podés encontrarme en [mi canal de YouTube](https://www.youtube.com/@sarreche).
+Si querés acompañarme mientras pruebo estas herramientas en proyectos, investigaciones y nuevos formatos, podés encontrarme en [mi canal de YouTube](https://www.youtube.com/@saarreche).

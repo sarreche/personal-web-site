@@ -125,4 +125,4 @@ Some offerings handle much of the infrastructure; others let you administer it. 
 
 What excites me is that the question can now be made concrete: what I want to delegate, where my information lives, how much control I need, and what I’m willing to spend. With those things on the table, the conversation becomes much more useful.
 
-If you’d like to keep exploring these tools with me, I share experiences and reflections on AI, software, and work on [my YouTube channel](https://www.youtube.com/@sarreche).
+If you’d like to keep exploring these tools with me, I share experiences and reflections on AI, software, and work on [my YouTube channel](https://www.youtube.com/@saarreche).

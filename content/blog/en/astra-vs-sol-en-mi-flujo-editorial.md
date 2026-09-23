@@ -118,4 +118,4 @@ So, will Astra radically improve my everyday work? I think it can radically chan
 
 For everything else, Sol didn’t become obsolete overnight. It remains the workshop where much of the work becomes concrete.
 
-If you’d like to follow along while I test these tools through projects, research, and new formats, you can find me on [my YouTube channel](https://www.youtube.com/@sarreche).
+If you’d like to follow along while I test these tools through projects, research, and new formats, you can find me on [my YouTube channel](https://www.youtube.com/@saarreche).

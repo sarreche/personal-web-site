@@ -162,4 +162,4 @@ So I would not stop learning AI. I would learn it while asking a more demanding 
 
 Soon, many people will be able to generate a report, an image, an analysis, or a block of code. The difference will lie in who can turn that material into something true, useful, and trustworthy for somebody else.
 
-If you would like to keep thinking with me about artificial intelligence, software, and work, I share new experiments and reflections on [my YouTube channel](https://www.youtube.com/@sarreche).
+If you would like to keep thinking with me about artificial intelligence, software, and work, I share new experiments and reflections on [my YouTube channel](https://www.youtube.com/@saarreche).

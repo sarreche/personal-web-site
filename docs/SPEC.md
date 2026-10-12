@@ -16,7 +16,7 @@ Present Ing. Santiago Arreche as a software engineer, architect and technology c
 - Required sections: hero; credentials; CV-based About; thesis award; services; working method; recent experience; GitHub Labs; YouTube; social links; contact form and footer.
 - The home navigation and a latest-articles section expose a bilingual static blog. Spanish uses `/blog` and English uses `/en/blog`.
 - Blog articles are paired Markdown files with the same slug in `content/blog/es` and `content/blog/en`; each article includes localized metadata, reading time, language alternates, a fixed services CTA and recent articles.
-- Credentials: 22+ years, 2011 National Master's Thesis Competition first place and two publications on process improvement.
+- Credentials: 24+ years, 2011 National Master's Thesis Competition first place and two publications on process improvement.
 - Spanish service order: Desarrollos a medida IA-first; IA y automatización; Liderazgo y ejecución; Arquitectura de software.
 - Working-method title: “De tu desafío a una solución con ingenio.” Spanish; provide an equivalent English title. Use four icon-led steps.
 - Experience includes Santiago Arreche & Asociados, Howdy, Hozho Software and Topaz with period, role and impact statement.

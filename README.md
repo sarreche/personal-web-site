@@ -6,7 +6,7 @@
 
 ## About the project
 
-Personal/professional website for Ing. Santiago Arreche, software engineer, architect and technology consultant. It communicates 22+ years of experience across architecture, product delivery, process improvement, AI and technical leadership.
+Personal/professional website for Ing. Santiago Arreche, software engineer, architect and technology consultant. It communicates 24+ years of experience across architecture, product delivery, process improvement, AI and technical leadership.
 
 ## Highlights
 

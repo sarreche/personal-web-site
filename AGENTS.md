@@ -32,6 +32,9 @@
 /lib -> utilities
 /app -> routes/layouts
 
+## Blog
+To write and publish an article, follow [docs/publicar-articulos.md](docs/publicar-articulos.md). Add the paired Markdown files only; do not change routes or components to publish a post.
+
 ## Coding Style
 - Clear naming
 - Semantic HTML

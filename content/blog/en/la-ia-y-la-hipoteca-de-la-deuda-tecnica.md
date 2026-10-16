@@ -24,9 +24,9 @@ And that's where AI changes the scale.
 
 ## Generating code got cheap
 
-This week Anthropic published how it redesigned its source control. The number that got shared the most is this one: in May 2026 they averaged around 2,500 code changes merged per day, and by September they were merging over 30,000.
+In an article published this week, Anthropic described how it redesigned its source control system. According to its own figures, it averaged around 2,500 code changes merged per day in May 2026 and was merging over 30,000 by September.
 
-At that volume, git became their biggest bottleneck. They built their own system, Scion, and migrated their whole repository in five months. They are clear that their case is very unusual, because they use their models to write code far more than almost any other company. But they also say they expect other organizations to start feeling similar pressure in the coming months.
+At that volume, source control became their biggest development bottleneck. They built their own system, Scion, and migrated their monorepo in five months. Anthropic says its case is very unusual: it uses Claude to write code far more than almost any other company. Even so, it expects similar pressures could appear at other organizations within six to twelve months.
 
 There's a detail in the same article that I find even more interesting than the numbers. They explain that very often the engineers' role was to tell the model "no," because the agent would sometimes violate core system constraints or over-engineer parts of the system to handle hypothetical concerns.
 
@@ -34,7 +34,7 @@ I raised this in [Too much code: who reviews all of it?](/en/blog/demasiado-codi
 
 ## Six proposals, two approved
 
-The second case comes from Google. With the launch of Gemini 4 Argon, their team published a very concrete experiment: they asked the model to improve the performance of ADK, their Python agent framework. We're talking about roughly 205,000 lines of code and nearly 17,000 unit tests.
+The second case comes from Google. In an article published alongside Gemini 4 Argon, its team described a concrete experiment: they asked the model to improve the performance of ADK, its Python agent framework. According to Google, the repository had roughly 205,000 lines of code and nearly 17,000 unit tests.
 
 The agent worked alone for 11 hours, overnight. By morning it had proposed six optimizations across 32 files.
 
@@ -53,7 +53,7 @@ Google's own team sums it up in a phrase that stuck with me: the agent explores,
 
 There's another part of the case worth telling. In a first round they gave the model the goal without any instructions about how the team works. The agent found real improvements, but it also accidentally changed a public schema and ran only a fraction of the tests.
 
-For the second round they put the maintainers' guidelines into the repository, like an onboarding guide for a new engineer. With that, the agent read the rules before touching a line and ended up running every test.
+For the second round they put the maintainers' guidelines into the repository, like an onboarding guide for a new engineer. They also enabled `/goal` mode and asked the agent to keep working until it was done and prepare an unmerged pull request. With both changes, it read the rules before editing code, worked for 11 hours, and ran all 16,892 unit tests. Google's team attributes the much more complete result to that second round, not to the instructions alone.
 
 I really like that image, because it takes the magic out of it. An agent is a lot like a very capable person who just joined: they can do many things, but they don't know your agreements, your history or what must not be touched. If you don't explain it, they'll sign loans in your name without knowing it.
 

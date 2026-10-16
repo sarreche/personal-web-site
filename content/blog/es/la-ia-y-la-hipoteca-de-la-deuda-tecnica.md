@@ -24,9 +24,9 @@ Y ahí la IA cambia la escala.
 
 ## Generar código se volvió barato
 
-Anthropic publicó esta semana cómo rediseñó su control de versiones. El dato que más circuló es este: en mayo de 2026 fusionaban en promedio unos 2.500 cambios de código por día, y en septiembre superaban los 30.000.
+En un artículo publicado esta semana, Anthropic contó cómo rediseñó su sistema de control de versiones. Según sus propias cifras, en mayo de 2026 fusionaban en promedio unos 2.500 cambios de código por día y, en septiembre, superaban los 30.000.
 
-Con ese volumen, git se les volvió el principal cuello de botella. Construyeron su propio sistema, Scion, y migraron todo su repositorio en cinco meses. Ellos mismos aclaran que su caso es muy atípico, porque usan sus modelos para programar mucho más que casi cualquier otra empresa. Pero también dicen que esperan que otras organizaciones empiecen a sentir presiones parecidas en los próximos meses.
+Con ese volumen, el control de versiones se les volvió el principal cuello de botella de desarrollo. Construyeron su propio sistema, Scion, y migraron su monorepo en cinco meses. Anthropic aclara que su caso es muy atípico: usan Claude para programar mucho más que casi cualquier otra empresa. Aun así, anticipa que estas presiones podrían aparecer en otras organizaciones dentro de seis a doce meses.
 
 Hay un detalle del mismo artículo que me parece todavía más interesante que los números. Cuentan que muchas veces el rol de los ingenieros fue decirle «no» al modelo, porque el agente a veces violaba restricciones centrales del sistema o sobrediseñaba partes para cubrir problemas hipotéticos.
 
@@ -34,7 +34,7 @@ Ya lo había planteado en [Demasiado código: ¿quién revisa todo eso?](/blog/d
 
 ## Seis propuestas, dos aprobadas
 
-El segundo caso viene de Google. Con el lanzamiento de Gemini 4 Argon, su equipo publicó un experimento muy concreto: le pidieron al modelo que mejorara el rendimiento de ADK, su framework de agentes en Python. Hablamos de unas 205.000 líneas de código y casi 17.000 pruebas unitarias.
+El segundo caso viene de Google. En un artículo publicado junto con Gemini 4 Argon, su equipo contó un experimento concreto: le pidieron al modelo que mejorara el rendimiento de ADK, su framework de agentes en Python. Según Google, el repositorio tenía unas 205.000 líneas de código y casi 17.000 pruebas unitarias.
 
 El agente trabajó solo durante 11 horas, de noche. A la mañana había propuesto seis optimizaciones en 32 archivos.
 
@@ -53,7 +53,7 @@ El propio equipo de Google lo resume en una frase que me quedó dando vueltas: e
 
 Hay otra parte del caso que vale la pena contar. En una primera ronda le dieron al modelo el objetivo sin ninguna instrucción sobre cómo trabaja el equipo. El agente encontró mejoras reales, pero también cambió sin querer un esquema público y corrió solo una parte de las pruebas.
 
-Para la segunda ronda pusieron en el repositorio las pautas de los mantenedores, como una guía de onboarding para un ingeniero nuevo. Con eso, el agente leyó las reglas antes de tocar una línea y terminó corriendo todas las pruebas.
+Para la segunda ronda pusieron en el repositorio las pautas de los mantenedores, como una guía de onboarding para un ingeniero nuevo. También activaron el modo `/goal` y le pidieron al agente que trabajara hasta terminar y preparara un pull request sin mezclar. Con ambas cosas, leyó las reglas antes de tocar el código, trabajó durante 11 horas y corrió las 16.892 pruebas unitarias. El equipo de Google atribuye a esa segunda ronda un resultado mucho más completo; no solo a las instrucciones.
 
 Me gusta mucho esa imagen, porque le saca magia al asunto. Un agente se parece bastante a una persona muy capaz que recién llega: sabe hacer muchas cosas, pero no conoce tus acuerdos, tu historia ni lo que no se toca. Si no se lo explicás, va a firmar créditos en tu nombre sin saberlo.
 

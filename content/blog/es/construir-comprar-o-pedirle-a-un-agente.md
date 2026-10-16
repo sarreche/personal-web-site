@@ -4,29 +4,29 @@ description: "La IA abarató la primera versión del software. Para elegir entre
 publishedAt: "2026-10-16"
 ---
 
-Hace unos días volví a pensar en una decisión que aparece seguido cuando alguien necesita una herramienta: ¿conviene comprar algo hecho o construirlo a medida?
+Cuando necesitás una herramienta, aparece una decisión conocida: ¿conviene comprar algo hecho o construirlo a medida?
 
-Ahora hay una tercera opción: describir lo que necesitamos y pedirle a un agente que arme una primera versión.
+Con los agentes, esa pregunta necesita una precisión. Pedirle a uno que arme una aplicación sigue siendo construir: después queda software propio que mantener. La tercera opción aparece cuando le delegamos directamente una tarea y recibimos un resultado, sin crear una aplicación propia para resolverla cada vez.
 
-Lo veo en las mini-apps caseras: herramientas pequeñas para ordenar gastos, convertir datos o automatizar una tarea repetitiva. Pueden ser muy útiles, sobre todo cuando resuelven algo propio que un producto genérico no contempla.
+Las mini-apps caseras son un ejemplo de construcción con IA: herramientas pequeñas para ordenar gastos, convertir datos o automatizar una tarea repetitiva. Pueden ser muy útiles, sobre todo cuando resuelven algo propio que un producto genérico no contempla.
 
 Pero que sea fácil ponerlas en marcha no significa que sean gratis de mantener. La pregunta ya no es solamente **«¿lo puedo construir?»**. También es **«¿me quiero hacer cargo?»**.
 
 ## Construir se hizo más accesible
 
-El 14 de octubre, Epic Games presentó una versión preliminar de su nuevo launcher con una frase provocadora: *«Programming is hard. So, instead of doing that, we vibe coded a new Epic Games Launcher»*.
+El 14 de octubre, Epic Games presentó una versión preliminar de su nuevo launcher con una frase provocadora: programar es difícil, así que habían recurrido al *vibe coding* para crear uno nuevo.
 
 Conviene leerla en contexto. La propia Epic describe el lanzamiento como una *preview*, «una lancha y no un yate», y aclara que todavía le faltan funciones. Su equipo contó que empezó desde cero y usó IA para escribir y revisar funcionalidades en otra tecnología. Es una noticia interesante sobre cómo cambia el proceso de desarrollo, pero no demuestra que construir y sostener un producto grande se haya vuelto trivial.
 
-En el otro extremo, Tyler Denk, CEO de beehiiv, contó que cada semana alguien le dice que va a programar una alternativa a su plataforma durante el fin de semana. Su respuesta fue enumerar partes menos visibles del servicio: entregabilidad, infraestructura para enviar millones de correos, clasificación de rebotes, supresión de destinatarios, detección de bots y monitoreo de listas negras.
+Imaginá ahora una herramienta casera para preparar un boletín. Generar el texto y una vista previa puede resolver una necesidad personal. Convertirla en un servicio de envío para otras personas agrega trabajo: manejar rebotes, bajas, permisos y fallos de entrega, además de cuidar los datos de los destinatarios.
 
-Su perspectiva tiene el interés de un proveedor que defiende su producto. Aun así, la lista plantea una pregunta útil: ¿qué trabajo hace falta para que algo siga funcionando cuando deja de ser un experimento personal?
+Ese ejemplo plantea una pregunta útil: ¿qué trabajo hace falta para que algo siga funcionando cuando deja de ser un experimento personal?
 
 La IA reduce el costo de empezar. No elimina automáticamente lo que viene después.
 
 ## Tres preguntas para decidir
 
-Cuando comparo construir, comprar o pedirle algo a un agente, vuelvo a tres preguntas sencillas.
+Para comparar comprar software, construir una herramienta propia o delegar una tarea a un agente, propondría tres preguntas sencillas.
 
 ### 1. ¿Esto te diferencia?
 
@@ -52,6 +52,8 @@ Para una herramienta interna que usa una persona y resuelve una necesidad peque�
 
 El costo no está solo en construirlo. También está en conservarlo útil y seguro.
 
+Si delegás una tarea puntual —por ejemplo, convertir una copia de un archivo y revisar el resultado— quizá no necesites mantener una aplicación. Igual hay que considerar el costo de ejecución, qué datos y permisos recibe el agente y cómo comprobás su trabajo. Si terminás usándolo todos los días con integraciones y reglas propias, ya hay una automatización que alguien debe sostener.
+
 ## Una guía mental, no una fórmula
 
 Podés ordenar la decisión con dos preguntas: cuánto te diferencia la herramienta y cuánto cuesta que falle.
@@ -59,6 +61,7 @@ Podés ordenar la decisión con dos preguntas: cuánto te diferencia la herramie
 - **Te diferencia y una falla tendría poco impacto:** construir puede tener sentido, quizá con ayuda de IA.
 - **No te diferencia y una falla sería costosa:** comprar una solución probada puede ahorrarte trabajo, después de evaluar al proveedor.
 - **Es para uso propio o interno, resuelve algo acotado y puede durar poco:** una mini-app de agente puede ser suficiente.
+- **Es una tarea puntual y su resultado se puede revisar:** delegarla a un agente puede evitar construir una herramienta propia.
 - **Te diferencia, pero una falla sería costosa:** construir requiere ingeniería, pruebas, revisión y una persona responsable.
 
 No es una fórmula que decida automáticamente. Sirve para poner sobre la mesa costos que suelen quedar fuera de la primera demo.
@@ -85,7 +88,6 @@ Por eso, ante la próxima decisión de software, preguntaría menos «¿lo podem
 
 - Epic Games, [presentación del nuevo Launcher en preview](https://store.epicgames.com/news/epic-games-launcher-preview), 14 de octubre de 2026.
 - Ars Technica, [Epic dice que su nuevo Launcher hecho con vibe coding es más rápido que Steam](https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/), 14 de octubre de 2026.
-- Tyler Denk, [comentario sobre construir una alternativa a beehiiv en un fin de semana](https://x.com/denk_tweets/status/2110371582153748942), 14 de octubre de 2026.
 
 ---
 

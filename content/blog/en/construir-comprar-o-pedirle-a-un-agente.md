@@ -4,29 +4,29 @@ description: "AI has made a first version of software cheaper to build. Choosing
 publishedAt: "2026-10-16"
 ---
 
-Recently, I found myself thinking again about a decision that comes up whenever someone needs a tool: should we buy something ready-made or build it ourselves?
+When you need a tool, a familiar decision comes up: should you buy something ready-made or build it yourself?
 
-Now there is a third option: describe what we need and ask an agent to build a first version.
+With agents, that question needs a clarification. Asking one to build an app is still building: you end up with software of your own to maintain. The third option appears when you delegate a task directly and receive a result, without creating your own app to handle it each time.
 
-I see it in homemade mini-apps: small tools to organize expenses, convert data, or automate a repetitive task. They can be very useful, especially when they solve a personal problem a generic product does not account for.
+Homemade mini-apps are an example of building with AI: small tools to organize expenses, convert data, or automate a repetitive task. They can be very useful, especially when they solve a personal problem a generic product does not account for.
 
 But being able to get one running easily does not mean it is free to maintain. The question is no longer just **“Can I build it?”** It is also **“Do I want to take responsibility for it?”**
 
 ## Building has become more accessible
 
-On October 14, Epic Games introduced a preview of its new launcher with a provocative line: *“Programming is hard. So, instead of doing that, we vibe coded a new Epic Games Launcher.”*
+On October 14, Epic Games introduced a preview of its new launcher with a provocative line: programming is hard, so they had used *vibe coding* to build a new one.
 
 It is worth reading that in context. Epic describes the release as a *preview*, “a speedboat and not a yacht,” and says it is still missing features. Its team said it started from scratch and used AI to write and review features in a different technology stack. It is an interesting story about how the development process is changing, but it does not prove that building and sustaining a large product has become trivial.
 
-At the other end, beehiiv CEO Tyler Denk said that every week someone tells him they are going to code an alternative to his platform over the weekend. His response was to list less visible parts of the service: deliverability, infrastructure for sending millions of emails, bounce classification, recipient suppression, bot detection, and blacklist monitoring.
+Now imagine a homemade tool for preparing a newsletter. Generating the text and a preview may meet a personal need. Turning it into an email service for other people adds work: handling bounces, unsubscribes, permissions, and delivery failures, as well as protecting recipients' data.
 
-His perspective comes from a provider defending its product. Still, the list raises a useful question: what work does it take to keep something running once it is no longer a personal experiment?
+That example raises a useful question: what work does it take to keep something running once it is no longer a personal experiment?
 
 AI reduces the cost of getting started. It does not automatically remove what comes next.
 
 ## Three questions to guide the decision
 
-When I compare building, buying, or asking an agent to make something, I come back to three simple questions.
+To compare buying software, building your own tool, or delegating a task to an agent, I would suggest three simple questions.
 
 ### 1. Does it differentiate you?
 
@@ -52,6 +52,8 @@ For an internal tool used by one person to solve a small problem, that commitmen
 
 The cost is not just building it. It is keeping it useful and safe.
 
+If you delegate a one-off task — converting a copy of a file and reviewing the result, for example — you may not need an app to maintain. You still need to consider execution costs, the data and permissions the agent receives, and how you check its work. If you end up using it every day with your own integrations and rules, you have an automation someone needs to maintain.
+
 ## A mental guide, not a formula
 
 You can organize the decision around two questions: how much the tool differentiates you and how costly a failure would be.
@@ -59,6 +61,7 @@ You can organize the decision around two questions: how much the tool differenti
 - **It differentiates you and a failure would have little impact:** building it may make sense, perhaps with AI assistance.
 - **It does not differentiate you and a failure would be costly:** buying a proven solution may save work, after evaluating the provider.
 - **It is for personal or internal use, solves a narrow problem, and may have a short life:** a small agent-built app may be enough.
+- **It is a one-off task and its result can be reviewed:** delegating it to an agent may avoid building your own tool.
 - **It differentiates you, but a failure would be costly:** building it calls for engineering, testing, review, and a clear owner.
 
 This is not a formula that decides automatically. It helps put costs on the table that often stay out of the first demo.
@@ -85,7 +88,6 @@ So, when facing the next software decision, I would ask less “Can we make it?�
 
 - Epic Games, [introduction to the new Launcher preview](https://store.epicgames.com/news/epic-games-launcher-preview), October 14, 2026.
 - Ars Technica, [Epic says its new vibe-coded Launcher is faster than Steam](https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/), October 14, 2026.
-- Tyler Denk, [comment on building a beehiiv alternative over a weekend](https://x.com/denk_tweets/status/2110371582153748942), October 14, 2026.
 
 ---
 

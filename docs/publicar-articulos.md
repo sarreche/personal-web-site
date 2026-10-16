@@ -101,6 +101,28 @@ Estos son patrones de referencia, no validaciones automáticas ni reglas rígida
 
 Mantener en inglés los mismos subtítulos, el mismo orden, los mismos enlaces y la misma fecha. Traducir también los textos de los enlaces internos. Revisar que la traducción preserve los matices, las atribuciones y las salvedades de las fuentes; debe ser paralela, no literal ni resumida.
 
+## Revisión editorial antes de publicar
+
+Cumplir la extensión, el formato y el tono no garantiza que el artículo sea correcto. Antes de aprobarlo, revisar qué afirma, cómo sostiene su argumento y qué respaldo tiene cada dato.
+
+- **Experiencias personales:** usar «me funcionó», «en mis proyectos» y anécdotas solo cuando Santiago las haya aportado en el material fuente o confirmado previamente. La primera persona permite expresar una opinión, pero no inventar recuerdos, resultados, encuentros ni prácticas profesionales. Sin ese respaldo, formular una propuesta: «consideraría» o «el orden que propondría».
+- **Coherencia del argumento:** comprobar que las categorías comparadas estén al mismo nivel y que las alternativas se distingan de verdad. Por ejemplo, construir con un agente sigue siendo construir; delegar una tarea sin mantener una aplicación propia es una decisión diferente. Revisar que los ejemplos sostengan la tesis y que las conclusiones respondan a lo desarrollado.
+- **Hechos, interpretación y consejo:** identificar qué reporta una fuente, qué lectura hace el autor y qué recomienda. Una noticia puede motivar una reflexión sin demostrarla. No generalizar a toda la industria a partir de un experimento empresarial, ni atribuir causalidad a un factor cuando cambiaron varios.
+- **Fuentes pendientes:** abrir la fuente original y comprobar que respalde la afirmación concreta y sus límites. Si está inaccesible o no permite verificar el dato, registrarlo en el PR y reformular u omitir la afirmación. Encontrar reproducciones o un enlace no alcanza para marcarla como verificada. Conservar solo afirmaciones cuyo respaldo se pueda explicar al lector.
+- **Inglés natural:** revisar el texto inglés como un artículo propio, además de cotejarlo con el español. Adaptar metáforas, modismos y términos técnicos sin cambiar el sentido. Evitar traducciones literales como «with mortgage eyes»; expresar la idea, por ejemplo, como «through the lens of technical debt».
+
+## Qué significa que una nota esté validada
+
+Documentar en el PR los controles realizados y lo que siga pendiente. Cada control confirma aspectos distintos:
+
+- **Revisión editorial:** claridad, coherencia, voz, fidelidad al material de Santiago y correspondencia entre ES/EN.
+- **Comprobación de fuentes:** respaldo de cifras, citas, fechas y atribuciones; límites e incertidumbres identificados.
+- **Validación técnica:** resultados de `npx tsc --noEmit` y `npm run build`. Un build correcto comprueba el formato que procesa el sitio y la generación de páginas; no comprueba la veracidad del texto ni los destinos de todos sus enlaces.
+- **Revisión de la página:** lectura de ambas versiones renderizadas para detectar problemas visibles de Markdown, títulos, listas y enlaces. Indicar si se hizo en local o en un preview.
+- **Comprobación de publicación:** después del merge, abrir las dos URLs de producción y confirmar que muestran los cambios esperados. Una respuesta HTTP 200 por sí sola no confirma el contenido ni su presentación visual.
+
+No describir una validación parcial como «todo verificado». Por ejemplo: «build correcto y fuentes revisadas; revisión visual pendiente» identifica con precisión qué se comprobó.
+
 ## Imágenes y portada
 
 La portada es opcional. La única publicada está en `public/images/blog/el-terror-de-anthropic-multiplicacion-de-matrices.png` (757×421). El nombre puede acortar el slug; lo que importa es que `coverImage` coincida con el archivo.

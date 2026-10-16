@@ -6,7 +6,7 @@ publishedAt: "2026-10-15"
 
 Hay una pregunta que aparece seguido en equipos y reuniones: ¿qué es exactamente la deuda técnica? Se nombra mucho, casi siempre con tono de queja, pero pocas veces alguien se detiene a explicarla.
 
-La mejor forma que encontré de contarlo, después de más de 24 años trabajando en software, es con una hipoteca.
+Una forma de explicarlo es con una hipoteca.
 
 Y esta semana aparecieron dos noticias que muestran por qué esa hipoteca puede crecer mucho más rápido cuando hay inteligencia artificial en el medio. No tanto porque la IA escriba mal código, sino porque escribe mucho, muy rápido, y alguien tiene que pagar las cuotas.
 
@@ -45,7 +45,9 @@ En la revisión, el equipo se quedó con dos y descartó cuatro:
 - Una reescritura que hacía más difícil de leer una parte central del código sin mejorar la latencia real.
 - Un índice que sumaba complejidad y solo ayudaba en pruebas sintéticas.
 
-Mirá esa lista con ojos de hipoteca. Ninguno de esos cambios rompía algo hoy. Todos pasaban, o casi. Pero cada uno era un crédito con intereses: un error difícil de reproducir, una dependencia frágil, un código que el próximo en tocarlo iba a tardar más en entender.
+Mirá esa lista pensando en la deuda técnica. Una mejora puede pasar las pruebas disponibles y todavía introducir errores o costos futuros. La caché ya tenía un riesgo de devolver datos incorrectos; otras propuestas agregaban dependencias frágiles o complejidad sin un beneficio útil. La revisión permitió detectar esos problemas antes de incorporarlas.
+
+Google cuenta además que otra propuesta, la carga diferida de módulos, pasó las 16.892 pruebas públicas pero falló en 25 objetivos de prueba internos. Hubo que ajustarla antes de integrarla. Las pruebas en verde eran una parte de la evidencia, y la revisión necesitaba mirar también qué había quedado fuera de ellas.
 
 El propio equipo de Google lo resume en una frase que me quedó dando vueltas: el agente explora, el mantenedor resta.
 
@@ -53,15 +55,15 @@ El propio equipo de Google lo resume en una frase que me quedó dando vueltas: e
 
 Hay otra parte del caso que vale la pena contar. En una primera ronda le dieron al modelo el objetivo sin ninguna instrucción sobre cómo trabaja el equipo. El agente encontró mejoras reales, pero también cambió sin querer un esquema público y corrió solo una parte de las pruebas.
 
-Para la segunda ronda pusieron en el repositorio las pautas de los mantenedores, como una guía de onboarding para un ingeniero nuevo. También activaron el modo `/goal` y le pidieron al agente que trabajara hasta terminar y preparara un pull request sin mezclar. Con ambas cosas, leyó las reglas antes de tocar el código, trabajó durante 11 horas y corrió las 16.892 pruebas unitarias. El equipo de Google atribuye a esa segunda ronda un resultado mucho más completo; no solo a las instrucciones.
+Para la segunda ronda pusieron en el repositorio las pautas de los mantenedores, como una guía de onboarding para un ingeniero nuevo. También activaron el modo `/goal`, que conserva el objetivo durante una ejecución larga, y pidieron un pull request sin fusionarlo, con mediciones de antes y después. En esa ronda el agente leyó las reglas antes de tocar el código, trabajó durante 11 horas y corrió las 16.892 pruebas unitarias. Como cambiaron varias condiciones, el caso no permite atribuir la mejora únicamente a las instrucciones.
 
 Me gusta mucho esa imagen, porque le saca magia al asunto. Un agente se parece bastante a una persona muy capaz que recién llega: sabe hacer muchas cosas, pero no conoce tus acuerdos, tu historia ni lo que no se toca. Si no se lo explicás, va a firmar créditos en tu nombre sin saberlo.
 
-## Lo que veo en las empresas grandes
+## Cómo lo abordaría en una empresa grande
 
-En las corporaciones esto no es teoría. Mucho del software que sostiene a las grandes empresas es viejo, con procesos pesados de mantener, y eso ocurre con frecuencia. Ahí la deuda ya existe, y muchas veces nadie sabe bien cuánta es.
+Imaginá una empresa grande que depende de un sistema antiguo, con documentación incompleta y cambios costosos. Antes de pedirle a un agente que agregue más código, convendría entender qué partes son difíciles de mantener y por qué.
 
-Lo que me funcionó en esos contextos es cambiar el orden en que se usa la IA.
+En ese contexto, propondría este orden para usar la IA.
 
 Primero, para entender. Pedirle que recorra un módulo, explique qué hace, detecte dependencias y arme documentación que hoy no existe.
 
@@ -69,7 +71,7 @@ Después, para verificar. Que proponga pruebas sobre el comportamiento actual an
 
 Recién entonces, para desarrollar. Y con una definición de terminado bien trabajada, para que no haga más de lo que hace falta. Un agente sin límites claros tiende a mejorar cosas que nadie le pidió, y cada mejora no pedida es un poco más de superficie que mantener.
 
-No tanto usar la IA para escribir más rápido, sino usarla para saber qué estás pagando.
+Usaría la IA también para entender qué compromisos estamos asumiendo al cambiar el sistema.
 
 ## Qué preguntas haría antes de aceptar un cambio
 

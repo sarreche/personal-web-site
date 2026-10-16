@@ -6,7 +6,7 @@ publishedAt: "2026-10-15"
 
 There's a question that comes up often in teams and meetings: what exactly is technical debt? People mention it a lot, almost always as a complaint, but rarely does anyone stop to explain it.
 
-The best way I've found to explain it, after more than 24 years working in software, is with a mortgage.
+One way to explain it is through a mortgage.
 
 And this week two pieces of news showed why that mortgage can grow much faster when artificial intelligence is involved. Not so much because AI writes bad code, but because it writes a lot of it, very fast, and someone has to pay the installments.
 
@@ -45,7 +45,9 @@ In review, the team kept two and rejected four:
 - A rewrite that made a core part of the code harder to read without improving real latency.
 - An index that added complexity and only helped synthetic tests.
 
-Look at that list with mortgage eyes. None of those changes broke anything today. All of them passed, or nearly. But each one was a loan with interest: a hard-to-reproduce bug, a fragile dependency, code the next person would take longer to understand.
+Look at that list through the lens of technical debt. An improvement can pass the available tests and still introduce bugs or future costs. The cache already risked returning incorrect data; other proposals added fragile dependencies or complexity without a useful benefit. Review caught those problems before the changes were integrated.
+
+Google also reports that another proposal, lazy module loading, passed all 16,892 public tests but failed 25 internal test targets. It needed adjustment before being merged. Passing tests were one part of the evidence, and review also needed to examine what they had missed.
 
 Google's own team sums it up in a phrase that stuck with me: the agent explores, the maintainer subtracts.
 
@@ -53,15 +55,15 @@ Google's own team sums it up in a phrase that stuck with me: the agent explores,
 
 There's another part of the case worth telling. In a first round they gave the model the goal without any instructions about how the team works. The agent found real improvements, but it also accidentally changed a public schema and ran only a fraction of the tests.
 
-For the second round they put the maintainers' guidelines into the repository, like an onboarding guide for a new engineer. They also enabled `/goal` mode and asked the agent to keep working until it was done and prepare an unmerged pull request. With both changes, it read the rules before editing code, worked for 11 hours, and ran all 16,892 unit tests. Google's team attributes the much more complete result to that second round, not to the instructions alone.
+For the second round they put the maintainers' guidelines into the repository, like an onboarding guide for a new engineer. They also enabled `/goal` mode, which preserves the objective during a long run, and requested an unmerged pull request with before-and-after measurements. In that round the agent read the rules before editing code, worked for 11 hours, and ran all 16,892 unit tests. Since several conditions changed, the case does not establish that instructions alone caused the improvement.
 
 I really like that image, because it takes the magic out of it. An agent is a lot like a very capable person who just joined: they can do many things, but they don't know your agreements, your history or what must not be touched. If you don't explain it, they'll sign loans in your name without knowing it.
 
-## What I see in large companies
+## How I would approach it in a large company
 
-In large corporations this isn't theory. A lot of the software that keeps big companies running is old, with processes that are heavy to maintain, and that happens often. The debt is already there, and many times nobody really knows how much.
+Imagine a large company that depends on an old system with incomplete documentation and costly changes. Before asking an agent to add more code, it would help to understand which parts are hard to maintain and why.
 
-What has worked for me in those contexts is changing the order in which AI gets used.
+In that context, I would suggest using AI in this order.
 
 First, to understand. Ask it to walk through a module, explain what it does, spot dependencies and write the documentation that doesn't exist today.
 
@@ -69,7 +71,7 @@ Then, to verify. Have it propose tests for the current behavior before changing 
 
 Only then, to build. And with a well-crafted definition of done, so it doesn't do more than needed. An agent without clear limits tends to improve things nobody asked for, and every unrequested improvement is a bit more surface to maintain.
 
-Not so much using AI to write faster, but using it to know what you're paying for.
+I would also use AI to understand the commitments we are taking on when we change the system.
 
 ## Questions I'd ask before accepting a change
 

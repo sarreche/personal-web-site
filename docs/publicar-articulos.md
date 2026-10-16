@@ -4,7 +4,7 @@ El blog no tiene CMS, base de datos, borradores ni programación de publicación
 
 ## Checklist de archivos
 
-Crear o editar solo esto:
+Para agregar un artículo, crear o editar estos archivos:
 
 - [ ] `content/blog/es/<slug>.md` — artículo en español.
 - [ ] `content/blog/en/<slug>.md` — la misma nota, traducida, con el mismo nombre de archivo.
@@ -20,7 +20,7 @@ La URL queda en `/blog/<slug>` y `/en/blog/<slug>`. El selector de idioma usa es
 
 `publishedAt` es una fecha `YYYY-MM-DD`, sin hora. Usar la misma fecha en los dos archivos. El listado ordena por esa fecha, de la más nueva a la más vieja. Si dos notas comparten día, el orden entre ellas no es estable: conviene una fecha distinta cuando el orden importa.
 
-No hay estado `draft`. Un archivo presente en el deploy está publicado. Para retener una nota, no la incluyas en el merge.
+No hay estado `draft` ni publicación programada. Un archivo válido presente en el deploy está publicado, aunque `publishedAt` esté en el futuro: esa fecha ordena la lista y alimenta los metadatos, pero no oculta ni programa el artículo. Para retener una nota, no incluyas sus archivos en el merge.
 
 ## Metadatos
 
@@ -43,7 +43,7 @@ Si aparece uno y falta el otro, o la imagen no existe, el build falla. Sin los d
 
 Campos que el lector no ve: `tags`, `categories`, `draft`, `author`, `readingMinutes` u otra clave. El tiempo de lectura se calcula en el build: una palabra cada 200, redondeando hacia arriba, con un mínimo de 1 minuto. No lo escribas en el front matter.
 
-El cuerpo no puede quedar vacío. El HTML crudo no se renderiza. El Markdown admitido es el de CommonMark: títulos, párrafos, listas, enlaces, citas, código en línea, bloques de código, reglas horizontales e imágenes. No hay `remark-gfm`: una tabla no se convierte en tabla.
+El cuerpo no puede quedar vacío. El HTML crudo no se renderiza. El Markdown admitido es el de CommonMark: títulos, párrafos, listas, enlaces, citas, código en línea, bloques de código, reglas horizontales e imágenes. No hay `remark-gfm`: una tabla no se convierte en tabla. Los enlaces `http(s)` abren otra pestaña; los enlaces relativos permanecen en el sitio.
 
 ## Plantilla
 
@@ -84,21 +84,22 @@ Un enlace `http` se abre en otra pestaña. Un enlace relativo permanece en el si
 
 Una imagen dentro del cuerpo también tiene que vivir en `public/` y referenciarse con ruta absoluta del sitio, por ejemplo `![Texto alternativo](/images/blog/figura.jpg)`. No hay imágenes externas configuradas. Hoy ningún artículo usa imágenes dentro del texto; la portada es el único caso real.
 
-## Patrones editoriales
+## Patrones editoriales observados
 
-Revisados los cinco artículos más recientes al 14 de octubre de 2026: *Qué tiene que mirar un líder cuando escribir código ya no es el cuello de botella*, *El mismo modelo, otro agente*, *Lo que me dejan Los 7 hábitos de la gente altamente efectiva*, *El camino del héroe* y *Recuperar la creatividad*.
+Estos son patrones de referencia, no validaciones automáticas ni reglas rígidas. Se observaron los cinco artículos más recientes al 14 de octubre de 2026: *Qué tiene que mirar un líder cuando escribir código ya no es el cuello de botella*, *El mismo modelo, otro agente*, *Lo que me dejan Los 7 hábitos de la gente altamente efectiva*, *El camino del héroe* y *Recuperar la creatividad*.
 
 - Voz en primera persona, rioplatense (`imaginá`, `podés`, `querés`). El inglés es una traducción paralela, no un resumen.
 - Título en estilo oración. Pregunta o formulación del tipo «Lo que…» / «por qué…». Sin mayúsculas de titular de prensa.
 - Bajada de unos 120–190 caracteres. Dice la promesa del texto y no repite el título. En el corpus completo van de 103 a 194.
 - Apertura concreta: una reunión, un video viejo o una pregunta habitual. La tesis aparece antes del primer `##`.
-- Esos cinco textos tienen entre 800 y 1100 palabras y de 4 a 8 secciones `##`. El corpus llega de unas 400 a 2500 palabras; la mediana ronda las 1500.
+- Esos cinco textos tienen entre 800 y 1100 palabras y de 4 a 8 secciones `##`. Es un rango orientativo, no un límite. El corpus llega de unas 400 a 2500 palabras; la mediana ronda las 1500.
 - Los subtítulos del cuerpo empiezan en `##`. La página ya imprime el `h1`. Reservar `###` para un desglose dentro de una sección, como en las notas técnicas más largas.
 - Párrafos cortos. Listas cuando hay preguntas o pasos. Pocos enlaces, y cada uno con un trabajo: nota anterior, paper, libro o video.
+- Verificar cada dato y cada cita en la fuente que lo sostiene. Distinguir anuncios, cifras reportadas por una empresa o su CEO, estimaciones y comprobaciones independientes; enlazar una fuente no convierte automáticamente una afirmación en verificada.
 - Las notas técnicas cierran con `## Referencias`. Las reflexiones recientes cierran con el video de YouTube, si existe, y la frase «Un abrazo.»
 - No hace falta un llamado a agendar dentro del Markdown. Después del texto, la página agrega sola el CTA de Calendly, y debajo muestra otras dos notas recientes. La home muestra las tres últimas.
 
-Mantener en inglés los mismos subtítulos, el mismo orden y la misma fecha. Traducir también los textos de los enlaces internos.
+Mantener en inglés los mismos subtítulos, el mismo orden, los mismos enlaces y la misma fecha. Traducir también los textos de los enlaces internos. Revisar que la traducción preserve los matices, las atribuciones y las salvedades de las fuentes; debe ser paralela, no literal ni resumida.
 
 ## Imágenes y portada
 
